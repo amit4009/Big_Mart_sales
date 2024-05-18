@@ -5,8 +5,6 @@ The sales_prediction dataset contains information on sales transactions for vari
 These columns capture details about the product characteristics, outlet attributes, and sales performance, allowing for comprehensive analysis of sales trends, outlet performance, and the impact of item and outlet features on sales outcomes. The dataset is valuable for making informed business decisions regarding inventory management, pricing strategies, and marketing efforts.
 
 Business queries
-# Total sales by item type.
-SELECT Item_Type, SUM(Item_Outlet_Sales) AS Total_Sales
-FROM sales_prediction
-GROUP BY Item_Type
-ORDER BY Total_Sales DESC;
+Total sales by item type and Establishmnet.
+
+![alt text](image.png)
