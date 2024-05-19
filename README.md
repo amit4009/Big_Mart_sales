@@ -29,6 +29,7 @@ The purpose of trend analysis is to identify patterns and seasonal variations in
 10. What are the total sales by item type and establishment year?
 
 # Code
+Total sale by item type for outlet established after 2000
 ```sql
 SELECT Item_Type, SUM(Item_Outlet_Sales) AS Total_Sales
 FROM sales_prediction
