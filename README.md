@@ -48,7 +48,7 @@ Check the sqlcode file above for full queries.
 The dashboard provides a comprehensive visualization of Big Mart sales data, highlighting key metrics such as total sales by item type, average sales per outlet, sales distribution by outlet type and size, sales trends over time, and the contribution of different item types and outlet characteristics to overall sales performance.
 
 ![alt text](<Dashboard 1 (3).png>)
-Link To Tableau Dashboard.[Superstore_sales](https://public.tableau.com/app/profile/amit.pandit8190/viz/Bigmart_sales/Dashboard1?publish=yes)
+Link To Tableau Dashboard.[Bigmart_sales](https://public.tableau.com/app/profile/amit.pandit8190/viz/Bigmart_sales/Dashboard1?publish=yes)
 
 # Observation
 The analysis of the sales_prediction dataset reveals that certain outlets, such as OUT035 and OUT049, consistently achieve the highest average sales, indicating their superior performance. Supermarket Type1 outlets are the most effective for selling high-performing items, while low visibility items surprisingly maintain significant sales in Tier 2 locations, suggesting strong brand loyalty. The correlation between high MRP items and substantial sales emphasizes the importance of pricing strategies, and overall, the data-driven insights highlight the need for targeted inventory management, optimized pricing, and strategic marketing efforts to enhance sales performance across different outlet types and locations.
