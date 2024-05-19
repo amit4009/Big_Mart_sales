@@ -29,7 +29,7 @@ Business questions to Answer
 10. What are the total sales by item type and establishment year?
 
 # Code
-''' sql
+```sql
 SELECT Item_Type, SUM(Item_Outlet_Sales) AS Total_Sales
 FROM sales_prediction
 WHERE Outlet_Identifier IN (
@@ -39,4 +39,4 @@ WHERE Outlet_Identifier IN (
 )
 GROUP BY Item_Type
 ORDER BY Total_Sales DESC;
-'''sh
+```
