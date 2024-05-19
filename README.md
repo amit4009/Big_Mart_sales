@@ -11,11 +11,11 @@ Conduct analysis on the data to understand the different product lines, the prod
 2. Sales Analysis
 This analysis aims to answer the question of the sales trends of product. The result of this can help use measure the effectiveness of each sales strategy the business applies and what modificatoins are needed to gain more sales.
 
-3.Trend Analysis
+ 3.Trend Analysis
 The purpose of trend analysis is to identify patterns and seasonal variations in sales data to inform strategic decision-making and improve future sales performance.
 
 
-Business questions to Answer
+# Business questions to Answer
 
 1. What are the average sales per outlet for the top 5 item types?
 2. What is the total sales distribution by outlet type for specific high-performing items?
@@ -40,3 +40,12 @@ WHERE Outlet_Identifier IN (
 GROUP BY Item_Type
 ORDER BY Total_Sales DESC;
 ```
+Check the sqlcode file above for full queries.
+
+# Dashboard
+
+The dashboard provides a comprehensive visualization of Big Mart sales data, highlighting key metrics such as total sales by item type, average sales per outlet, sales distribution by outlet type and size, sales trends over time, and the contribution of different item types and outlet characteristics to overall sales performance.
+
+![alt text](<Dashboard 1 (3).png>)
+Link To Tableau Dashboard.[Link text](https://public.tableau.com/app/profile/amit.pandit8190/viz/Bigmart_sales/Dashboard1?publish=yes)
+
